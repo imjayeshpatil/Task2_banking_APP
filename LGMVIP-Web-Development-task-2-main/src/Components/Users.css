@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+  --orange:#ffa500;
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none; border:none;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+html{
+   font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+} 
+
+section{
+  padding:-2rem 6%;
+}
+
+
+
+.services .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 20px;
+  
+}
+
+.services .box-container .box{
+  flex: 1 1 30rem;
+  border-radius: .5rem;
+  padding:1rem;
+  text-align: center;
+  
+  
+}
+
+.services .box-container .box i{
+  padding:1rem;
+  font-size: 5rem;
+  color:var(--orange);
+}
+.services .box-container .box i:hover{
+  color:orangered;
+}
+.services .box-container .box h3{
+  font-size: 2.5rem;
+  color:#fc6d39;
+  /* color: white; */
+}
+.services .box-container .box h3:hover{
+  color: white;
+}
+
+.services .box-container .box p{
+  font-size: 1.5rem;
+  color:rgb(155, 149, 149);
+  
+  padding:1rem 0;
+}
+.services .box-container .box p:hover{
+  color: white;
+}
+
+.services .box-container .box:hover{
+  /* box-shadow:  orangered; */
+  box-shadow: 0 3rem 3rem rgb(44, 44, 44);
+  background-color: rgb(0, 0, 0);
+ 
+
+  
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #363636;
+  width: 150px;
+  height: 150px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  margin-top: 20%;
+  margin-left: 40%;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+

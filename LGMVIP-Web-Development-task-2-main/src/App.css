@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: black;
+  color: white;
+}
+.text-info {
+margin-right: 45%;
+color: white;
+}
+.h3, h3 {
+  font-size: 2.75rem;
+}
+
+.table-header {
+  font-weight: 500;
+}
